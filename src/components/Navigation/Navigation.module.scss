@@ -1,0 +1,42 @@
+@import '../../App.scss';
+
+.Navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 7px solid var(--Blue);
+    margin: 0;
+
+    h2 {
+        font-size: 2rem;
+        margin-right: 1rem;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+        margin-left: 1rem;
+        
+            li {
+                list-style: none;
+                border-right: 1px solid var(--Blue);
+                padding: 0 0.5rem;
+                font-size: 12px;
+            }
+    }
+
+    a {
+        color: var(--Blue) ;
+        text-decoration: none;
+    }
+
+    .Leo {
+        color: var(--Blue);
+    }
+
+    .Lov {
+        color: var(--Black);
+    }
+}

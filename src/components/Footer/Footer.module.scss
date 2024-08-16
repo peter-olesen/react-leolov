@@ -1,0 +1,33 @@
+@import "../../App.scss";
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6rem;
+    background: var(--DarkBlue);
+    color: white;
+    padding: 3rem;
+
+    h4 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    address {
+        font-style: normal;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        margin-top: 1.5rem;
+        margin-left: 0.5rem;
+        padding: 0;
+    
+        li {
+            list-style: none;
+        }
+    }
+}
