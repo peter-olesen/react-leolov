@@ -5,19 +5,19 @@ export const Navigation = () => {
     const NavItems = [
         {
             "item": "Hjem",
-            "url": "#"
+            "url": "#Hjem"
         },
         {
             "item": "Advokaterne",
-            "url": "#"
+            "url": "#Advokaterne"
         },
         {
             "item": "Om Leo-Lov",
-            "url": "#"
+            "url": "#Om-Leo-Lov"
         },
         {
             "item": "Kontakt",
-            "url": "#"
+            "url": "#Kontakt"
         }
     ]
 

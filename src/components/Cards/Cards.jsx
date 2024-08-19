@@ -2,7 +2,7 @@ import cardStyles from './Cards.module.scss'
 
 export const Cards = ({children}) => {
     return (
-        <section className={cardStyles.Section}>
+        <section id="Om-Leo-Lov" className={cardStyles.Section}>
             {children}
         </section>
     )
