@@ -30,3 +30,18 @@
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .Section {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 768px ) {
+    .Section {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 1rem 0;
+        gap: 4rem;
+    }
+}

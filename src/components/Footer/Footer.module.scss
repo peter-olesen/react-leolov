@@ -1,6 +1,6 @@
 @import "../../App.scss";
 
-.footer {
+.Footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -30,5 +30,25 @@
         li {
             list-style: none;
         }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Footer {
+        flex-direction: column;
+        padding: 2rem;
+        margin: 0;
+
+        ul {
+            margin: 0;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 768px ) {
+    .Footer {
+        gap: 3rem;
+
     }
 }

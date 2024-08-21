@@ -3,7 +3,7 @@ import footerStyle from './Footer.module.scss'
 export const Footer = (props) => {
 
     return (
-        <footer className={footerStyle.footer}>
+        <footer id="Kontakt" className={footerStyle.Footer}>
             <div>
                 <h4>Adresse</h4>
                 <p>Find os her: <br /></p>
