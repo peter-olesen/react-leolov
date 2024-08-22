@@ -4,7 +4,7 @@ export const NoProblemBox = () => {
     return (
         <section className={infoStyles.InfoBox}>
             <div className={infoStyles.Left}>
-                <img src="src/assets/Images/cashmoney.png" alt="" />
+                <img src="./assets/Images/cashmoney.png" alt="" />
             </div>
             <div className={infoStyles.Right}>
                 <h2>INTET PROBLEM</h2>

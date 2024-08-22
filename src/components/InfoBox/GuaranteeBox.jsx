@@ -9,7 +9,7 @@ export const GuaranteeBox = () => {
                 <p>Det er sådan vi har skabt en forretning der ikke kan andet end at vokse!</p>
             </div>
             <div className={infoStyles.Right}>
-                <img src="src/assets/Images/offices.png" alt="" />
+                <img src="./assets/Images/offices.png" alt="" />
             </div>
         </section>
     )
