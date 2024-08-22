@@ -26,8 +26,8 @@ export const Footer = (props) => {
             <div>
                 <h4>Sociale medier</h4>
                 <ul>
-                    <li><img src="src/assets/Icons/facebook.png" alt="Facebook" /></li>
-                    <li><img src="src/assets/Icons/linkedin.png" alt="LinkedIn" /></li>
+                    <li><img src="./assets/Icons/facebook.png" alt="Facebook" /></li>
+                    <li><img src="./assets/Icons/linkedin.png" alt="LinkedIn" /></li>
                 </ul>
             </div>
         </footer>
